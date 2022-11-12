@@ -1,0 +1,15 @@
+.pagina-principal{
+    @include fondo-principal;
+}
+
+.champions{
+    @include fondo-champions;
+}
+
+.qatar{
+    @include fondo-qatar;
+}
+
+.libertadores{
+    @include fondo-libertadores;
+}
