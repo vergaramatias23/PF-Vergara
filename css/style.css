@@ -94,6 +94,25 @@ header {
           text-align: center;
           padding: 5px;
           border-radius: 10px; } }
+  .container-main main .tabla-qatar, .container-main main .reglas-qatar, .container-main main .campeones-qatar, .container-main main .ranking-qatar {
+    font-size: 0.6em;
+    color: white;
+    font-family: "montserrat";
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2px;
+    background-color: #ad7a21;
+    padding: 1px; }
+    @media screen and (min-width: 768px) {
+      .container-main main .tabla-qatar, .container-main main .reglas-qatar, .container-main main .campeones-qatar, .container-main main .ranking-qatar {
+        font-size: 1em;
+        color: white;
+        font-family: "montserrat";
+        font-weight: 700;
+        text-align: center;
+        padding: 5px;
+        border-radius: 10px; } }
   .container-main main section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -109,7 +128,14 @@ header {
       width: 90%;
       background-color: #121212;
       grid-area: tabla; }
+      .container-main main section table .grupos, .container-main main section .goleadores .grupos, .container-main main section .asistencias .grupos {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 10px; }
       .container-main main section table .cabeceras, .container-main main section .goleadores .cabeceras, .container-main main section .asistencias .cabeceras, .container-main main section table .partidos, .container-main main section .goleadores .partidos, .container-main main section .asistencias .partidos {
+        border: 1px solid #4d4d4d;
         height: 10px;
         padding: 15px; }
         @media screen and (min-width: 768px) {
